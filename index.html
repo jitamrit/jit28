@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+/* Styling the Body element i.e. Color,
+Font, Alignment */
+body {
+background-color:darkgoldenrod;
+font-family: Verdana;
+text-align: center;
+}
+form{
+    background-color: #fff;
+max-width: 500px;
+margin: 50px auto;
+padding: 30px 20px;
+box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.pariDiv
+{
+             text-align: left;
+margin-bottom: 25px;
+}
+.pariDiv label{
+            display: block;
+margin-bottom: 10px;
+}
+.pariDiv input
+{
+    border: 10px solid #777;
+border-radius: 2px;
+font-family: inherit;
+padding: 10px;
+display: block;
+width: 95%;
+}
+button
+{
+   
+background-color:darkgoldenrod;
+            padding: 10px 20px;
+            border-radius: 10px;
+}
+
+    </style>
+</head>
+<body>
+    <form>
+        <div class="pariDiv">
+        <label>Alternate Email</label>
+        <input type="email" id="uemail" placeholder="User Email" required autofocus/>
+        </div>
+
+        <div class="pariDiv">
+            <label>Website URL</label>
+            <input type="url" id="wurl" placeholder="https://www.xyz.com" required/>
+        </div>
+        <div class="pariDiv">
+            <label>Date Of Birth</label>
+            <input type="date" id="udob">
+        </div>
+        <!-- Multi-line Text Input Control -->
+<button type="submit" value="submit">
+Submit
+</button>
+    </form>
+</body>
+</html>
